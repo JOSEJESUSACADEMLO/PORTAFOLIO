@@ -259,11 +259,24 @@ gap: 5px;
     margin-bottom: 10px;
 
 }
+
+
+.title8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: var(--beige); 
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
 .c_cualidades{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 .cualidades{
@@ -277,7 +290,7 @@ gap: 5px;
     justify-content: center;
     align-items: center;
     align-content: center;
-      
+    flex-direction: row;
 }
 .c{
 
@@ -304,12 +317,11 @@ box-shadow: var(--button-shadow);
 /*FORMULARIOO */
 .formulario{
     display: flex;
-    flex-direction: row; 
-    width: 100%;   
+    flex-direction: row;
+    width: 100%;
     gap: 30px;
-    justify-content:center;
-    align-items: stretch;
-    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .micasa{
@@ -328,7 +340,6 @@ box-shadow: var(--button-shadow);
     flex-direction:row;
     gap:3px;
  
-    
 }
 .contact__form-title{
 
@@ -341,7 +352,7 @@ box-shadow: var(--button-shadow);
 
 .contact__form {
     width: 30%;
-    height: auto;
+    height: 350px;
     padding: 1rem 1.5rem 2rem;
     background-color: gray;
     border-radius: 5px;
@@ -364,8 +375,8 @@ box-shadow: var(--button-shadow);
   
   .contact__form-input {
     width: 100%;
-    padding: 1rem;
-    height: 5px;
+    padding: 13px;
+    height: 2px;
     font-size: .8rem;
     font-weight: var(--azul);
     border-radius: 5px;
@@ -375,16 +386,16 @@ box-shadow: var(--button-shadow);
 
   .btn {
     display: flex;
+    margin-left: 150px;
     width: 6px;
-    height: 8px;
-    padding: 1.5rem 4rem;
+    height: 2px;
+    padding: 1rem 2rem;
     border: none;
     outline: none;
     border-radius: 5px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
@@ -837,3 +848,22 @@ box-shadow: var(--button-shadow);
         justify-content:flex-start;
         gap:8px;
     }
+
+   
+
+
+  .btn {
+    display: flex;
+    margin-left: 100px;
+    width: 6px;
+    height: 2px;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
